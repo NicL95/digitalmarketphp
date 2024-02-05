@@ -1,0 +1,177 @@
+html {
+    scroll-behavior: smooth;
+  }
+
+body {
+    text-align: center;
+}
+
+.inicio {
+    background-image: url(../images/soportetecnico.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    text-align: center;
+}
+
+.fondo {
+    height: 40rem;
+}
+
+main {
+    background-color: #fff;
+}
+
+.carrusel {
+    height: 70vh;
+    display: flex;
+    align-items: center;
+}
+
+.carrusel-items{
+    display: flex;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    padding: 30px 0px;
+}
+
+.carrusel-item{
+    min-width: 300px;
+    max-width: 300px;
+    height: 200px;
+}
+
+.carrusel-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.carrusel-item:hover {
+    transform: scale(1.2);
+}
+
+/* --productos-- */
+
+.container-productos{
+    width: 100%;
+    max-width: 1200px;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+}
+.container-productos .card{
+    width: 260px;
+    height: 390px;
+    background: #4E5D6C;
+    color:#f2f2f2;
+    border-radius: 8px;
+    border:1px solid  #DF691A;
+    box-shadow: 0 2px 2px rgba(0,0,0,0.2);
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+    align-items: center;
+    transition: all 0.25s;
+}
+.container-productos .card:hover{
+    transform: scale(1.15);
+    box-shadow: 0 12px 16px rgba(0,0,0,0.2);
+}
+.container-productos .card img{
+    width: 260px;
+    height: 190px;
+    /* cursor: pointer; */
+}
+.container-productos .card a{
+    padding: 10px;
+    display: block;
+    width: 50%;
+    margin: 0 auto;
+}
+
+/* --fin productos-- */
+
+section.especialidades{
+    padding: 80px 4%;
+}
+
+section.especialidades .flex{
+    gap: 60px;
+}
+
+.especialidades .especialidades-box{
+    width: 200px;
+    padding: 10px;
+    margin-top: 45px;
+    border-radius: 20px;
+    transition: .2s;
+}
+
+.especialidades .especialidades-box:hover{
+    transform: scale(1.15);
+    box-shadow: 0 10px 30px #111;
+}
+
+.especialidades .especialidades-box i{
+    font-size: 70px;
+    color: #3232E5;
+}
+
+.especialidades .especialidades-box h3{
+    font-size: 28px;
+    margin: 15px 0;
+}
+
+.logo {
+    position: flex;
+    left: 550px;
+    top: 210px;
+}
+
+.logo img:hover {
+    box-shadow: 0 0 20px #fff;
+    transform: scale(1.05);
+}
+
+footer{
+    padding: 40px;
+    text-align: center;
+}
+
+.contactos {
+    color: #ffffff;
+}
+
+.redes button{
+    border-color: #3232E5;
+    border-radius: 20px;
+}
+
+.redes button:hover{
+    transform: scale(1.2);
+}
+
+.redes i{
+    padding: 20px;
+    font-size: 40px;
+    color: #3232E5;
+}
+
+.redes .insta {
+    color: #C13584;
+}
+
+.redes .wsp {
+    color: #25D366;
+}
+
+.redes .mail {
+    color: #0097FF;
+}
+
+.copy {
+    color: #fff;
+}

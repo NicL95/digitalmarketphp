@@ -1,0 +1,104 @@
+html {
+    scroll-behavior: smooth;
+  }
+
+body {
+    background-image: url(util/images/soportetecnico.png);
+    text-align: center;
+}
+
+#fixa {
+    background-image: url(util/images/soportetecnico.png);
+    background-repeat: no-repeat;
+    size: 100%;
+    background-attachment: fixed;
+    text-align: center;
+}
+
+.fondo {
+    height: 40rem;
+}
+
+main {
+    background-color: #fff;
+}
+
+.carrusel {
+    height: 70vh;
+    display: flex;
+    align-items: center;
+}
+
+.carrusel-items{
+    display: flex;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    padding: 30px 0px;
+}
+
+.carrusel-item{
+    min-width: 300px;
+    max-width: 300px;
+    height: 200px;
+}
+
+.carrusel-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.carrusel-item:hover {
+    transform: scale(1.2);
+}
+
+.logo {
+    position: flex;
+    left: 550px;
+    top: 210px;
+}
+
+.logo img:hover {
+    box-shadow: 0 0 20px #fff;
+    transform: scale(1.05);
+}
+
+footer{
+    padding: 40px;
+    text-align: center;
+}
+
+.contactos {
+    color: #ffffff;
+}
+
+.redes button{
+    border-color: #3232E5;
+    border-radius: 20px;
+}
+
+.redes button:hover{
+    transform: scale(1.2);
+}
+
+.redes i{
+    padding: 20px;
+    font-size: 40px;
+    color: #3232E5;
+}
+
+.redes .insta {
+    color: #C13584;
+}
+
+.redes .wsp {
+    color: #25D366;
+}
+
+.redes .mail {
+    color: #0097FF;
+}
+
+.copy {
+    color: #fff;
+}
