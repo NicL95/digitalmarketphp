@@ -14,6 +14,7 @@ $(document).ready(function () {
             }
             else{
                 $('#nav_user').hide();
+                $('#carro').hide();
             }
         })
     }

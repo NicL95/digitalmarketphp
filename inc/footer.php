@@ -15,7 +15,7 @@
             <div class="row">
                 <div class="col-md-12 col-lg-4">
                     <div class="dk-footer-box-info">
-                        <a href="#i" class="footer-logo">
+                        <a href="#" class="footer-logo">
                             <img src="../util/images/Tecnología.png" width="200px" alt="footer_logo" class="img-fluid rounded-circle">
                         </a>
                         <div class="footer-social-link">
@@ -100,7 +100,7 @@
                                         <a href="#">Carrinho</a>
                                     </li>
                                     <li>
-                                        <a href="#">Sobre nós</a>
+                                        <a href="sobre.php">Sobre nós</a>
                                     </li>
                                 </ul>
                             </div>
@@ -115,30 +115,30 @@
                                 </div>
                                 <ul>
                                     <li>
-                                        <a href="produtos/acessorios.php">Accesorios</a>
+                                        <a href="acessorios.php">Accesorios</a>
                                     </li>
                                     <li>
-                                        <a href="produtos/discos.php">Discos</a>
+                                        <a href="discos.php">Discos</a>
                                     </li>
                                     <li>
-                                        <a href="produtos/memorias.php">Memórias</a>
+                                        <a href="memorias.php">Memórias</a>
                                     </li>
                                     <li>
-                                        <a href="produtos/motherboards.php">Motherboars</a>
+                                        <a href="motherboards.php">Motherboars</a>
                                     </li>
                                 </ul>
                                 <ul>
                                     <li>
-                                        <a href="produtos/placasgraficas.php">Placas Graficas</a>
+                                        <a href="placasgraficas.php">Placas Graficas</a>
                                     </li>
                                     <li>
-                                        <a href="produtos/procesadores.php">Processadores</a>
+                                        <a href="procesadores.php">Processadores</a>
                                     </li>
                                     <li>
-                                        <a href="produtos/ratoseteclados.php">Ratos e Teclados</a>
+                                        <a href="ratoseteclados.php">Ratos e Teclados</a>
                                     </li>
                                     <li>
-                                        <a href="produtos/torres.php">Torres e Caixas</a>
+                                        <a href="torres.php">Torres e Caixas</a>
                                     </li>
                                 </ul>
                                 <!-- End form -->
@@ -167,7 +167,7 @@
                         <div class="copyright-menu">
                             <ul>
                                 <li>
-                                    <a href="#">Inicio</a>
+                                    <a href="../index.php">Inicio</a>
                                 </li>
                                 <li>
                                     <a href="#">Termos e condiçoes</a>
@@ -176,7 +176,7 @@
                                     <a href="#">Políticas de Privacidade</a>
                                 </li>
                                 <li>
-                                    <a href="#">Contatos</a>
+                                    <a href="sobre.php">Contatos</a>
                                 </li>
                             </ul>
                         </div>
@@ -191,7 +191,7 @@
         <!-- Back to top -->
         <div id="back-to-top" class="back-to-top">
             <button class="btn btn-dark" title="Back to Top" style="display: block;">
-                <i class="fa fa-angle-up"></i>
+                <a href="#"><i class="bi bi-arrow-up-circle" width="30px"></i></a>
             </button>
         </div>
         <!-- End Back to top -->

@@ -347,8 +347,8 @@ p {
   position: relative;
   z-index: 2; }
   .back-to-top .btn-dark {
-    width: 35px;
-    height: 35px;
+    width: 45px;
+    height: 45px;
     border-radius: 50%;
     padding: 0;
     position: fixed;
@@ -363,5 +363,5 @@ p {
     transition: all 0.3s linear; }
     .back-to-top .btn-dark:hover {
       cursor: pointer;
-      background: #FA6742;
-      border-color: #FA6742; }
+      background: #fff;
+      border-color: #007ffbff; }

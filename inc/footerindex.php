@@ -100,7 +100,7 @@
                                         <a href="#">Carrinho</a>
                                     </li>
                                     <li>
-                                        <a href="#">Sobre nós</a>
+                                        <a href="produtos/sobre.php">Sobre nós</a>
                                     </li>
                                 </ul>
                             </div>
@@ -191,7 +191,7 @@
         <!-- Back to top -->
         <div id="back-to-top" class="back-to-top">
             <button class="btn btn-dark" title="Back to Top" style="display: block;">
-                <i class="fa fa-angle-up"></i>
+                <a href="#"><i class="bi bi-arrow-up-circle" width="30px"></i></a>
             </button>
         </div>
         <!-- End Back to top -->
