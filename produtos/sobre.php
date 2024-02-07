@@ -6,6 +6,11 @@ include_once '../inc/header.php';
   </div>
 
     <main>
+    <section class="p-3">
+    <div class="bg-body-secondary border text-dark p-3">
+      <h1 class="text-center">Sobre Nós</h1>
+    </div>
+  </section>
 
       <section class="mt-5 bg-dark">
         <div class="fs-1 fw-bold text-secondary-emphasis p-4">

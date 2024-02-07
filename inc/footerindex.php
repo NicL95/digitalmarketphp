@@ -3,33 +3,196 @@
 </section>
 <p></p>
 </main>
-<footer class="bg-dark">
-    <h1 class="contactos">Contactos</h1>
-    <a name="contacto"></a>
-    <div class="line-footer borda">
-        <div class="flex">
-            <div class="redes">
-                <a href="mailto:info.digitalmarketpt@gmail.com"><button><i
-                            class="mail bi bi-envelope-fill"></i></button></a>
-                <a href="https://www.facebook.com/digitalmarketportugal" target="_blank"><button><i
-                            class="bi bi-facebook"></i></button></a>
-                <a href="https://www.instagram.com/digitalmarket.pt/" target="_blank"><button><i
-                            class="insta bi bi-instagram"></i></button></a>
-                <a href="https://wa.me/351920118870" target="_blank"><button><i
-                            class="wsp bi bi-whatsapp"></i></button></a>
-            </div>
-        </div>
-    </div>
-    <p></p>
-    <h5 class="copy"> Copyright Digital Market <i class="bi bi-c-circle"></i> 2024.</h5>
-</footer>
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-  integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-<script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
-<script src="util/js/bootstrap.bundle.min.js"></script>
-<script src="/util/js/bootstrap.min.js"></script>
-<script src="util/js/datatables.min.js"></script>
+<script src="util/js/bootstrap.min.js"></script>
 <script src="util/js/jquery.min.js"></script>
-<script src="util/js/main.js"></script>
-<script src="util/js/sweetalert.min.js"></script>
+<script src="util/js/bootstrap.bundle.min.js"></script>
+<script src="index.js"></script>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1454307309376664" crossorigin="anonymous"></script>
+
+<footer id="dk-footer" class="dk-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-lg-4">
+                    <div class="dk-footer-box-info">
+                        <a href="#i" class="footer-logo">
+                            <img src="util/images/Tecnología.png" width="200px" alt="footer_logo" class="img-fluid rounded-circle">
+                        </a>
+                        <div class="footer-social-link">
+                            <h3>Segue-Nos</h3>
+                            <ul>
+                                <li>
+                                    <a href="https://www.facebook.com/digitalmarketportugal">
+                                        <i class="bi bi-facebook"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.instagram.com/digitalmarket.pt">
+                                        <i class="insta bi bi-instagram"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://wa.me/351920118870">
+                                        <i class="wsp bi bi-whatsapp"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="mailto:info.digitalmarketpt@gmail.com">
+                                        <i class="mail bi bi-envelope-fill"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- End Social link -->
+                    </div>
+                    <!-- End Footer info -->
+                </div>
+                <!-- End Col -->
+                <div class="col-md-12 col-lg-8">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="contact-us">
+                                <div class="contact-icon">
+                                    <i class="bi bi-geo-alt-fill"></i>
+                                </div>
+                                <!-- End contact Icon -->
+                                <div class="contact-info">
+                                    <h3>Monção, Viana do Castelo, Portugal.</h3>
+                                    <p>Rua das Forças Armadas N 37</p>
+                                </div>
+                                <!-- End Contact Info -->
+                            </div>
+                            <!-- End Contact Us -->
+                        </div>
+                        <!-- End Col -->
+                        <div class="col-md-6">
+                            <div class="contact-us contact-us-last">
+                                <div class="contact-icon">
+                                <i class="bi bi-telephone-outbound-fill"></i>
+                                </div>
+                                <!-- End contact Icon -->
+                                <div class="contact-info">
+                                    <h3>+351 920 118 870</h3>
+                                    <p>Chamada rede fixa nacional</p>
+                                </div>
+                                <!-- End Contact Info -->
+                            </div>
+                            <!-- End Contact Us -->
+                        </div>
+                        <!-- End Col -->
+                    </div>
+                    <!-- End Contact Row -->
+                    <div class="row">
+                        <div class="col-md-12 col-lg-5">
+                            <div class="footer-widget footer-left-widget">
+                                <div class="section-heading">
+                                    <h3>Nossos Links</h3>
+                                    <span class="animate-border border-black"></span>
+                                </div>
+                                <ul>
+                                    <li>
+                                        <a href="#">Meu perfil</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Meus pedidos</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Carrinho</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Sobre nós</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <!-- End Footer Widget -->
+                        </div>
+                        <!-- End col -->
+                        <div class="col-md-12 col-lg-5">
+                            <div class="footer-widget">
+                                <div class="section-heading">
+                                    <h3 class="">Categorias</h3>
+                                    <span class="animate-border border-black"></span>
+                                </div>
+                                <ul>
+                                    <li>
+                                        <a href="produtos/acessorios.php">Accesorios</a>
+                                    </li>
+                                    <li>
+                                        <a href="produtos/discos.php">Discos</a>
+                                    </li>
+                                    <li>
+                                        <a href="produtos/memorias.php">Memórias</a>
+                                    </li>
+                                    <li>
+                                        <a href="produtos/motherboards.php">Motherboars</a>
+                                    </li>
+                                </ul>
+                                <ul>
+                                    <li>
+                                        <a href="produtos/placasgraficas.php">Placas Graficas</a>
+                                    </li>
+                                    <li>
+                                        <a href="produtos/procesadores.php">Processadores</a>
+                                    </li>
+                                    <li>
+                                        <a href="produtos/ratoseteclados.php">Ratos e Teclados</a>
+                                    </li>
+                                    <li>
+                                        <a href="produtos/torres.php">Torres e Caixas</a>
+                                    </li>
+                                </ul>
+                                <!-- End form -->
+                            </div>
+                            <!-- End footer widget -->
+                        </div>
+                        <!-- End Col -->
+                    </div>
+                    <!-- End Row -->
+                </div>
+                <!-- End Col -->
+            </div>
+            <!-- End Widget Row -->
+        </div>
+        <!-- End Contact Container -->
+
+
+        <div class="copyright">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-5">
+                        <span>Copyright © 2024, Tudos os dereitos reservados Digital Market</span>
+                    </div>
+                    <!-- End Col -->
+                    <div class="col-md-7">
+                        <div class="copyright-menu">
+                            <ul>
+                                <li>
+                                    <a href="#">Inicio</a>
+                                </li>
+                                <li>
+                                    <a href="#">Termos e condiçoes</a>
+                                </li>
+                                <li>
+                                    <a href="#">Políticas de Privacidade</a>
+                                </li>
+                                <li>
+                                    <a href="#">Contatos</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- End col -->
+                </div>
+                <!-- End Row -->
+            </div>
+            <!-- End Copyright Container -->
+        </div>
+        <!-- End Copyright -->
+        <!-- Back to top -->
+        <div id="back-to-top" class="back-to-top">
+            <button class="btn btn-dark" title="Back to Top" style="display: block;">
+                <i class="fa fa-angle-up"></i>
+            </button>
+        </div>
+        <!-- End Back to top -->
+</footer>

@@ -3,7 +3,11 @@ include_once '../inc/header.php';
 ?>
 
 <main>
-  <h1>Acessórios</h1>
+  <section class="p-3">
+    <div class="bg-body-secondary border text-dark p-3">
+      <h1 class="text-center">Acessórios</h1>
+    </div>
+  </section>
   <section class="mt-5 bg-dark">
     <div class="fs-1 fw-bold text-light p-4">
       <h1>Bem-vindo</h1>

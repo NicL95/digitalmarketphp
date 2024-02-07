@@ -75,7 +75,12 @@
   <!-- /.login-box -->
 </div>
 
-<?php include_once '../inc/footer.php'; ?>
+<script src="../util/js/bootstrap.bundle.min.js"></script>
+<script src="../util/js/bootstrap.min.js"></script>
+<script src="../util/js/datatables.min.js"></script>
+<script src="../util/js/jquery.min.js"></script>
+<script src="../util/js/sweetalert.min.js"></script>
+<script src="../util/js/adminlte.min.js"></script>
 <script src="../util/js/login.js"></script>
 <script src="../util/js/toastr.min.js"></script>
 </body>
