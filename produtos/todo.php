@@ -1,4 +1,14 @@
-<section>
+<?php
+include_once '../inc/header.php';
+?>
+<main>
+  <section class="p-3">
+    <div class="bg-body-secondary border text-dark p-3">
+      <h1 class="text-center">Todos os Produtos</h1>
+    </div>
+  </section>
+
+  <section>
     <div class="modal" id="modal">
         <div class="modal-content">
             <img src="" alt="" class="modal-img" id="modal-img">
@@ -33,3 +43,10 @@
         </div>
     </div>
 </section>
+
+</main>
+
+<?php include_once '../inc/footer.php'; ?>
+</body>
+
+</html>

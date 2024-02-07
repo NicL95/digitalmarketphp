@@ -4,7 +4,7 @@ include_once 'inc/headerindex.php';
 
 <main>
 
-  <div id="fixa" name="index">
+  <div id="fixa">
     <img class="img-fluid" src="util/images/soportetecnico.png" alt="">
   </div>
 

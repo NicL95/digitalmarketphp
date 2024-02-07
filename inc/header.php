@@ -54,7 +54,7 @@
                             <li>
                                 <hr class="dropdown-divider bg-dark">
                             </li>
-                            <li><a class="dropdown-item text-primary rounded-2" href="tudo.php">Tudos os
+                            <li><a class="dropdown-item text-primary rounded-2" href="todo.php">Todos os
                                     Produtos</a></li>
                         </ul>
                     </li>

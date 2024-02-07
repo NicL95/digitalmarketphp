@@ -160,7 +160,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-5">
-                        <span>Copyright © 2024, Tudos os dereitos reservados Digital Market</span>
+                        <span>Copyright © 2024, Todos os direitos reservados Digital Market</span>
                     </div>
                     <!-- End Col -->
                     <div class="col-md-7">

@@ -15,7 +15,7 @@
             <div class="row">
                 <div class="col-md-12 col-lg-4">
                     <div class="dk-footer-box-info">
-                        <a href="#i" class="footer-logo">
+                        <a href="#" class="footer-logo">
                             <img src="util/images/Tecnología.png" width="200px" alt="footer_logo" class="img-fluid rounded-circle">
                         </a>
                         <div class="footer-social-link">
@@ -160,7 +160,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-5">
-                        <span>Copyright © 2024, Tudos os dereitos reservados Digital Market</span>
+                        <span>Copyright © 2024, Todos os dereitos reservados Digital Market</span>
                     </div>
                     <!-- End Col -->
                     <div class="col-md-7">
