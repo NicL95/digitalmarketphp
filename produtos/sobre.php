@@ -1,63 +1,146 @@
-<?php 
+<?php
 include_once '../inc/header.php';
 ?>
 
-  <div class="inicio" name="index">
-  </div>
+<div class="inicio" name="index">
+</div>
 
-    <main>
-    <section class="p-3">
-    <div class="bg-body-secondary border text-dark p-3">
-      <h1 class="text-center">Sobre Nós</h1>
+<main>
+  <section class="bg-dark m-5 p-4" id="">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-6 col-md-12 md-pb mt-5 mb-3">
+          <img class="rounded-5" src="../util/images/repara.jpg" width="550px" alt="">
+        </div>
+
+        <div class="col-lg-6 col-md-12 md-pb mt-5">
+          <div class="title-wrapper align-left">
+            <div class="line"></div>
+            <h3 class="display-2">Quem Somos</h3>
+            <p class="text-uppercase mt-3">Somos Digital Market um sitio especializado em reparação e venda de computadores, programação web e loja online de informática. Com mais de 10 anos de experiência, garantimos um serviço de alta qualidade e atendimento personalizado. Entre em contato conosco hoje mesmo e deixe sua tecnologia em boas mãos.<br>
+            </p>
+          </div>
+        </div>
+      </div>
     </div>
   </section>
 
-      <section class="mt-5 bg-dark card card-body m-4">
-        <div class="fs-1 fw-bold text-secondary-emphasis p-4">
-          <p><span class="text-primary">Digital Market é um sitio especializado em reparação de computadores,
-              programação
-              web e loja online de informática. Com mais de 10 anos de experiência, garantimos um serviço de alta
-              qualidade e atendimento personalizado. Entre em contato conosco hoje mesmo e deixe sua tecnologia em boas
-              mãos.
+  <section class="bg-dark m-5 p-5" id="">
+    <div class="dk-footer-box-nos">
+      <h3 class="display-2 mb-5">O que é que fazemos</h3>
+    </div>
+    <div class="container mbr-white">
+      <div class="row justify-content-center">
+        <div class="card first col-12 col-md-6 col-lg-4 rounded-5 m-2">
+          <div class="card-wrapper align-center">
+            <div class="card-box align-center">
+              <h4 class="pb-2 display-6 text-primary fw-bold">Manutenção de Computadores</h4>
+              <p class="pb-2 display-7 text-dark fs-4">
+                Reparação, montagem e limpeza de computador fixo e portátil.</p>
+            </div>
+          </div>
         </div>
-      </section>
-      <section class="mt-5 bg-dark card card-body m-5">
-        <div class="fs-1 fw-bold text-secondary-emphasis p-4">
-          <p><span class="text-primary">🔧 Precisa de ajuda com o seu computador? Não se preocupe, estamos aqui para ajudar! 💻✨ 🔍 Seja qual for o problema, nossa equipe de especialistas em reparação informática está pronta para resolver. 🛠️💪 💡 Conte conosco para consertar seu computador, portatil ou qualquer outro dispositivo eletrônico. Nós temos a solução que você precisa! 🚀🔧 🌟 Garantimos um serviço rápido, eficiente e com preços justos. Não deixe que um problema de informática atrapalhe o seu dia a dia! 🙌💻 📞 Entre em contato conosco agora mesmo e agende uma visita. Estamos prontos para te ajudar a voltar a navegar sem preocupações! 📲💻 #reparacaoinformatica #consertodecomputadores #tecnologia #servicosdeinformatica #solucoesdigitais #computadores #notebooks #tecnologiaavançada #reparacaoeletronica
-        </div>
-      </section>
+        <div class="card col-12 col-md-6 col-lg-4 rounded-5 m-2">
+          <div class="card-wrapper align-center">
+            <div class="card-box align-center">
 
-      <section class="especialidades">
-        <div class="interface">
-          <h2 class="titulo"><span></span></h2>
-          <div class="flex row">
-            <div class="col">
-              <div class="especialidades-box card col-md-4 offset-md-4 mt-4">
-                <i class="bi bi-code-square"></i>
-                <h3>Website</h3>
-                <p></p>
-              </div>
+              <h4 class="pb-2 display-6 text-primary fw-bold">Venda de Componentes</h4>
+              <p class="pb-2 display-7 text-dark fs-4">
+                Loja online com os melhores preços para você.</p>
+
             </div>
-            <div class="col">
-              <div class="especialidades-box card col-md-4 offset-md-4 mt-4">
-                <i class="bi bi-pc-display"></i>
-                <h3>Reparação e Instalação</h3>
-                <p></p>
-              </div>
+          </div>
+        </div>
+        <div class="mt-5 mb-3">
+          <img class="rounded-5" src="../util/images/coding.png" width="550px" alt="">
+        </div>
+        <div class="card col-12 col-md-6 col-lg-4 rounded-5 m-2">
+          <div class="card-wrapper align-center">
+            <div class="card-box align-center">
+
+              <h4 class="pb-2 display-6 text-primary fw-bold mt-4">Desenho Web</h4>
+              <p class="pb-2 display-7 text-dark fs-4 mt-4">
+                Precisas um sitio web? Deixa tua idea que nós fazemos realidade.</p>
             </div>
-            <div class="col">
-              <div class="especialidades-box card col-md-4 offset-md-4 mt-4">
-                <i class="bi bi-bag-fill"></i>
-                <h3>Produtos</h3>
-                <p></p>
+          </div>
+        </div>
+        <div class="card col-12 col-md-6 col-lg-4 rounded-5 m-2">
+          <div class="card-wrapper align-center">
+            <div class="card-box align-center">
+
+              <h4 class="pb-2 display-6 text-primary fw-bold">Instalação de Programas</h4>
+              <p class="pb-2 display-7 text-dark fs-4">
+                Formatação, windows, office, desenho, programação, temos esse programa que você precisa.</p>
+            </div>
+          </div>
+        </div>
+        <div class="mt-5 mb-3">
+          <img class="rounded-5" src="../util/images/windows.jpg" width="550px" alt="">
+        </div>
+        <div class="card col-12 col-md-6 col-lg-4 rounded-5 m-2">
+          <div class="card-wrapper align-center">
+
+            <div class="card-box align-center">
+
+              <h4 class="pb-2 display-6 text-primary fw-bold">Apoio em Tecnología</h4>
+              <p class="pb-2 display-7 text-dark fs-4">
+                Temos uma vasta experiência em tecnologia, podemos ajudá-lo no que precisar.</p>
+
+              <div class="link-wrapper">
+                <span class="mbr-iconfont mobi-mbri-right mobi-mbri"></span>
               </div>
             </div>
           </div>
         </div>
-      </section>
-    </main>
+        <div class="card last col-12 col-md-6 col-lg-4 rounded-5 m-2">
+          <div class="card-wrapper align-center">
+            <div class="card-box align-center">
 
-    <?php include_once '../inc/footer.php'; ?>
+              <h4 class="pb-2 display-6 text-primary fw-bold">Câmaras de Segurança</h4>
+              <p class="pb-2 display-7 text-dark fs-4">
+                Temos serviço de instalação e reparação de câmaras, consulte-nos.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <h1 class="m-5">Entre em contato connosco</h1>
+    <div class="col-md-12 col-lg-12">
+      <div class="dk-footer-box-info">
+        <div class="nos-social-link">
+          <ul>
+            <li>
+              <a href="https://www.facebook.com/digitalmarketportugal">
+                <i class="bi bi-facebook fs-2"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/digitalmarket.pt">
+                <i class="insta bi bi-instagram fs-2"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://wa.me/351920118870">
+                <i class="wsp bi bi-whatsapp fs-2"></i>
+              </a>
+            </li>
+            <li>
+              <a href="mailto:info.digitalmarketpt@gmail.com">
+                <i class="mail bi bi-envelope-fill fs-2"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <!-- End Social link -->
+      </div>
+      <!-- End Footer info -->
+    </div>
+  </section>
+
+
+</main>
+
+<?php include_once '../inc/footer.php'; ?>
 
 </body>
 </div>

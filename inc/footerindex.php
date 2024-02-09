@@ -167,7 +167,7 @@
                         <div class="copyright-menu">
                             <ul>
                                 <li>
-                                    <a href="#">Inicio</a>
+                                    <a href="index.php">Inicio</a>
                                 </li>
                                 <li>
                                     <a href="#">Termos e condiçoes</a>
@@ -176,7 +176,7 @@
                                     <a href="#">Políticas de Privacidade</a>
                                 </li>
                                 <li>
-                                    <a href="#">Contatos</a>
+                                    <a href="produtos/sobre.php">Contatos</a>
                                 </li>
                             </ul>
                         </div>

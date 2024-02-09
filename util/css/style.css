@@ -47,6 +47,10 @@ main {
     transform: scale(1.2);
 }
 
+.card:hover {
+    transform: scale(1.07);
+}
+
 /* --productos-- */
 
 .container-productos{
@@ -277,6 +281,54 @@ p {
     .dk-footer-box-info .footer-social-link a i:hover{
         transform: scale(1.2);
     }
+
+    /* nos */
+
+    .dk-footer-box-nos {
+      position: flex;
+      margin-bottom: 20px;
+      top: -122px;
+      background: #202020;
+      padding: 1px;
+      z-index: 2; }
+
+    .dk-footer-box-info .nos-social-link ul {
+      list-style-type: none;
+      padding: 0;
+      margin: 0; }
+    .dk-footer-box-info .nos-social-link li {
+      display: inline-block;
+      padding: 20px;
+     }
+    .dk-footer-box-info .nos-social-link a i {
+      display: block;
+      width: 60px;
+      height: 60px;
+      padding: 8px;
+      border-radius: 50%;
+      text-align: center;
+      line-height: 40px;
+      background: #3232E5;
+      margin-right: 5px;
+      color: #fff; }
+  
+      .dk-footer-box-info .nos-social-link .insta {
+          color: #fff;
+          background-color: #C13584;
+      }
+      .dk-footer-box-info .nos-social-link .wsp {
+          color: #fff;
+          background-color: #25D366;
+      }
+      .dk-footer-box-info .nos-social-link .mail {
+          color: #fff;
+          background-color: #0097FF;
+      }
+      .dk-footer-box-info .nos-social-link a i:hover{
+          transform: scale(1.2);
+      }
+
+      /* end nos */
 
 .footer-awarad {
   margin-top: 0px;
