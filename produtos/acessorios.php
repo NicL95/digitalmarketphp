@@ -3,7 +3,7 @@ include_once '../inc/header.php';
 ?>
 
 <head>
-  <title>DM | Accesórios</title>
+  <title>DM | Acessórios</title>
 </head>
 
 <main>
