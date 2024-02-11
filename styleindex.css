@@ -2,8 +2,16 @@ html {
     scroll-behavior: smooth;
 }
 
-main {
-    background-color: #fff;
+
+.fixa {
+  background-image: url(util/images/soportetecnico.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-attachment: fixed;
+  text-align: center;
+  background-position-y: 10%;
+  width: 100%;
+  height: 750px;
 }
 
 .carrusel {

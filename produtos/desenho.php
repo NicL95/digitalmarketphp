@@ -2,10 +2,14 @@
 include_once '../inc/header.php';
 ?>
 
+<head>
+  <title>DM | Desenho WEB</title>
+</head>
+
 <main>
 <section class="p-3">
     <div class="bg-body-secondary border text-dark p-3">
-      <h1 class="text-center">SALDOS</h1>
+      <h1 class="text-center">Desenho WEB</h1>
     </div>
   </section>
   <section class="mt-5 bg-dark">

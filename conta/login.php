@@ -12,10 +12,8 @@
   <link rel="stylesheet" href="../util/css/all.min.css">
   <!-- Theme style -->
   <link rel="stylesheet" href="../util/css/adminlte.min.css">
-  <link rel="stylesheet" href="../util/css/style.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
   <link rel="stylesheet" href="../util/css/bootstrap.min.css">
-  <link rel="stylesheet" href="../util/css/toastr.min.css">
 </head>
 
 <div class="hold-transition login-page">
@@ -63,10 +61,10 @@
         </form>
 
         <p class="mb-1">
-          <a href="forgot-password.html">Esqueci meu Palavra-Passe</a>
+          <a href="#">Esqueci meu Palavra-Passe</a>
         </p>
         <p class="mb-0">
-          <a href="register.html" class="text-center">Registrar novo Utilizador</a>
+          <a href="#" class="text-center">Registrar novo Utilizador</a>
         </p>
       </div>
       <!-- /.login-card-body -->

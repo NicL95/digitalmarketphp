@@ -3,13 +3,13 @@ include_once '../inc/header.php';
 ?>
 
 <head>
-  <title>DM | Torres e Caixas</title>
+  <title>DM | Portáteis</title>
 </head>
 
 <main>
-<section class="p-3">
+  <section class="p-3">
     <div class="bg-body-secondary border text-dark p-3">
-      <h1 class="text-center">Torres e Caixas</h1>
+      <h1 class="text-center">Portáteis</h1>
     </div>
   </section>
   <section>
@@ -22,26 +22,26 @@ include_once '../inc/header.php';
 
     <div class="container-productos">
       <div class="card">
-        <img src="../util/images/ssd128gb.jpg" class="card-img p-2">
-        <h5 class="p-2">Disco SSD SATA Kingston 240gb</h5>
+        <img src="../util/images/vgahdmi.jpg" class="card-img p-2">
+        <h5 class="p-2">Adaptador HDMI a VGA 1080P</h5>
         <h3 class="p-2"></h3>
         <a href="https://wa.me/351920118870" class="btn btn-primary" data-id="1">Consultar</a>
       </div>
       <div class="card">
-        <img src="../util/images/ssd128gb.jpg" class="card-img p-2">
-        <h5 class="p-2">Disco SSD SATA Kingston 480gb</h5>
+        <img src="../util/images/som logitech.jpg" class="card-img p-2">
+        <h5 class="p-2">Colunas Logitech sistema de som Z313</h5>
         <h3 class="p-2"></h3>
         <a target="_blank" href="https://wa.me/351920118870" class="btn btn-primary" data-id="1">Consultar</a>
       </div>
       <div class="card">
-        <img src="../util/images/verbatim 512gb.jpg" class="card-img p-2">
-        <h5 class="p-2">Disco SSD M.2 Verbatim 512gb</h5>
+        <img src="../util/images/micro.jpg" class="card-img p-2">
+        <h5 class="p-2">Micrófono USB Trust Gaming GXT 241 Velica Profissional PC</h5>
         <h3 class="p-2"></h3>
         <a target="_blank" href="https://wa.me/351920118870" class="btn btn-primary" data-id="1">Consultar</a>
       </div>
       <div class="card">
-        <img src="../util/images/nvme 250gb.jpg" class="card-img p-2">
-        <h5 class="p-2">Disco NVMe M.2 Kingston 250gb</h5>
+        <img src="../util/images/cam.jpg" class="card-img p-2">
+        <h5 class="p-2">Webcam Logitech C270 Streaming HD, 720p/30fps</h5>
         <h3 class="p-2"></h3>
         <a target="_blank" href="https://wa.me/351920118870" class="btn btn-primary" data-id="1">Consultar</a>
       </div>
@@ -57,6 +57,7 @@ include_once '../inc/header.php';
 </main>
 
 <?php include_once '../inc/footer.php'; ?>
+
 </body>
 
 </html>

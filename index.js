@@ -21,6 +21,8 @@ $(document).ready(function () {
 })
 
 
+/* carrusel */
+
 const carrusel = document.querySelector(".carrusel-items");
 
 let maxScrollLeft = carrusel.scrollWidth - carrusel.clientWidth;
@@ -49,3 +51,34 @@ carrusel.addEventListener('mouseout', () => {
 });
 
 start();
+
+/* imagem inicio */
+
+var cont=0
+
+function cambia() {
+
+cont = cont % 2;
+
+if (cont==1){
+
+document.getElementById("fotocambia").src="util/images/soportetecnico.png";
+
+}
+
+else{
+
+document.getElementById("fotocambia").src="util/images/coding.png";
+
+}
+
+cont++;
+
+}
+function inicio() {
+
+setInterval(cambia, 3000);
+
+}
+
+window.onload=inicio;

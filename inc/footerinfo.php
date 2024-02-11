@@ -5,7 +5,7 @@
 </main>
 
 <script src="../util/js/jquery.min.js"></script>
-<script src="produtos.js"></script>
+<script src="../produtos/produtos.js"></script>
 <script src="../util/js/bootstrap.min.js"></script>
 <script src="..util/js/bootstrap.bundle.min.js"></script>
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1454307309376664" crossorigin="anonymous"></script>
@@ -102,10 +102,10 @@
                                     <a href="#">Carrinho</a>
                                 </li>
                                 <li>
-                                    <a href="desenho.php">Desenho WEB</a>
+                                    <a href="../produtos/desenho.php">Desenho WEB</a>
                                 </li>
                                 <li>
-                                    <a href="../info/sobre.php">Sobre nós</a>
+                                    <a href="sobre.php">Sobre nós</a>
                                 </li>
                             </ul>
                         </div>
@@ -120,42 +120,42 @@
                             </div>
                             <ul>
                                 <li>
-                                    <a href="acessorios.php">Accesorios</a>
+                                    <a href="../produtos/acessorios.php">Accesorios</a>
                                 </li>
                                 <li>
-                                    <a href="computadores.php">Computadores Fixos</a>
+                                    <a href="../produtos/computadores.php">Computadores Fixos</a>
                                 </li>
                                 <li>
-                                    <a href="conexao.php">Conexão/redes</a>
+                                    <a href="../produtos/conexao.php">Conexão/redes</a>
                                 </li>
                                 <li>
-                                    <a href="discos.php">Discos</a>
+                                    <a href="../produtos/discos.php">Discos</a>
                                 </li>
                                 <li>
-                                    <a href="memorias.php">Memórias</a>
+                                    <a href="../produtos/memorias.php">Memórias</a>
                                 </li>
                                 <li>
-                                    <a href="monitores.php">Monitores</a>
+                                    <a href="../produtos/monitores.php">Monitores</a>
                                 </li>
                             </ul>
                             <ul>
                                 <li>
-                                    <a href="motherboards.php">Motherboars</a>
+                                    <a href="../produtos/motherboards.php">Motherboars</a>
                                 </li>
                                 <li>
-                                    <a href="placasgraficas.php">Placas Graficas</a>
+                                    <a href="../produtos/placasgraficas.php">Placas Graficas</a>
                                 </li>
                                 <li>
-                                    <a href="portatieis.php">Portáteis</a>
+                                    <a href="../produtos/portatieis.php">Portáteis</a>
                                 </li>
                                 <li>
-                                    <a href="procesadores.php">Processadores</a>
+                                    <a href="../produtos/procesadores.php">Processadores</a>
                                 </li>
                                 <li>
-                                    <a href="ratoseteclados.php">Ratos e Teclados</a>
+                                    <a href="../produtos/ratoseteclados.php">Ratos e Teclados</a>
                                 </li>
                                 <li>
-                                    <a href="torres.php">Torres e Caixas</a>
+                                    <a href="../produtos/torres.php">Torres e Caixas</a>
                                 </li>
                             </ul>
                             <!-- End form -->
@@ -193,7 +193,7 @@
                                 <a href="../info/privacidade.php">Políticas de Privacidade</a>
                             </li>
                             <li>
-                                <a href="../info/sobre.php">Contatos</a>
+                                <a href="sobre.php">Contatos</a>
                             </li>
                         </ul>
                     </div>

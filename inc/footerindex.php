@@ -56,10 +56,12 @@
                                     <i class="bi bi-geo-alt-fill"></i>
                                 </div>
                                 <!-- End contact Icon -->
+                                <a target="_blank" href="https://maps.app.goo.gl/YdLaJXJHX5975vvo9">
                                 <div class="contact-info">
                                     <h3>Monção, Viana do Castelo, Portugal.</h3>
                                     <p>Rua das Forças Armadas N 37</p>
                                 </div>
+                                </a>
                                 <!-- End Contact Info -->
                             </div>
                             <!-- End Contact Us -->
@@ -100,7 +102,10 @@
                                         <a href="#">Carrinho</a>
                                     </li>
                                     <li>
-                                        <a href="produtos/sobre.php">Sobre nós</a>
+                                        <a href="produtos/sobre.php">Desenho WEB</a>
+                                    </li>
+                                    <li>
+                                        <a href="info/sobre.php">Sobre nós</a>
                                     </li>
                                 </ul>
                             </div>
@@ -118,18 +123,30 @@
                                         <a href="produtos/acessorios.php">Accesorios</a>
                                     </li>
                                     <li>
+                                        <a href="produtos/computadores.php">Computadores Fixos</a>
+                                    </li>
+                                    <li>
+                                        <a href="produtos/conexao.php">Conexão/Rede</a>
+                                    </li>
+                                    <li>
                                         <a href="produtos/discos.php">Discos</a>
                                     </li>
                                     <li>
                                         <a href="produtos/memorias.php">Memórias</a>
                                     </li>
                                     <li>
-                                        <a href="produtos/motherboards.php">Motherboars</a>
+                                        <a href="produtos/monitores.php">Monitores</a>
                                     </li>
                                 </ul>
                                 <ul>
                                     <li>
+                                        <a href="produtos/motherboards.php">Motherboars</a>
+                                    </li>
+                                    <li>
                                         <a href="produtos/placasgraficas.php">Placas Graficas</a>
+                                    </li>
+                                    <li>
+                                        <a href="produtos/portateis.php">Portáteis</a>
                                     </li>
                                     <li>
                                         <a href="produtos/procesadores.php">Processadores</a>

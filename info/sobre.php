@@ -1,16 +1,20 @@
 <?php
-include_once '../inc/header.php';
+include_once '../inc/headerinfo.php';
 ?>
+
+<head>
+  <title>DM | Sobre</title>
+</head>
 
 <div class="inicio" name="index">
 </div>
 
-<main>
-  <section class="bg-dark m-5 p-4" id="">
+<main class="">
+  <section class="bg-dark mb-5" id="">
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-lg-6 col-md-12 md-pb mt-5 mb-3">
-          <img class="rounded-5" src="../util/images/repara.jpg" width="550px" alt="">
+          <img class="rounded-5 img-fluid" src="../util/images/repara.jpg" width="550px" alt="">
         </div>
 
         <div class="col-lg-6 col-md-12 md-pb mt-5">
@@ -25,7 +29,7 @@ include_once '../inc/header.php';
     </div>
   </section>
 
-  <section class="bg-dark m-5 p-5" id="">
+  <section class="bg-dark" id="">
     <div class="dk-footer-box-nos">
       <h3 class="display-2 mb-5">O que é que fazemos</h3>
     </div>
@@ -52,7 +56,7 @@ include_once '../inc/header.php';
           </div>
         </div>
         <div class="mt-5 mb-3">
-          <img class="rounded-5" src="../util/images/coding.png" width="550px" alt="">
+          <img class="rounded-5 img-fluid" src="../util/images/coding.png" width="550px" alt="">
         </div>
         <div class="card col-12 col-md-6 col-lg-4 rounded-5 m-2">
           <div class="card-wrapper align-center">
@@ -75,7 +79,7 @@ include_once '../inc/header.php';
           </div>
         </div>
         <div class="mt-5 mb-3">
-          <img class="rounded-5" src="../util/images/windows.jpg" width="550px" alt="">
+          <img class="rounded-5 img-fluid" src="../util/images/windows.jpg" width="550px" alt="">
         </div>
         <div class="card col-12 col-md-6 col-lg-4 rounded-5 m-2">
           <div class="card-wrapper align-center">
@@ -138,9 +142,9 @@ include_once '../inc/header.php';
   </section>
 
 
-</main>
+  </main>
 
-<?php include_once '../inc/footer.php'; ?>
+<?php include_once '../inc/footerinfo.php'; ?>
 
 </body>
 </div>

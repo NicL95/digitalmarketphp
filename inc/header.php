@@ -4,10 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Digital Market</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
     <link rel="stylesheet" href="../util/css/bootstrap.min.css">
     <link rel="stylesheet" href="../util/css/style.css">
+    <link rel="shortcut icon" href="../util/images/logo.ico">
     <meta name="google-adsense-account" content="ca-pub-1454307309376664">
 </head>
 
@@ -30,16 +30,28 @@
                                 <a class="dropdown-item text-primary rounded-2" href="acessorios.php">Acessorios</a>
                             </li>
                             <li>
+                                <a class="dropdown-item text-primary rounded-2" href="computadores.php">Computadores Fixos</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item text-primary rounded-2" href="conexao.php">Conexão/Rede</a>
+                            </li>
+                            <li>
                                 <a class="dropdown-item text-primary rounded-2" href="discos.php">Discos</a>
                             </li>
                             <li>
                                 <a class="dropdown-item text-primary rounded-2" href="memorias.php">Memórias</a>
                             </li>
                             <li>
-                                <a class="dropdown-item text-primary rounded-2" href="motherboards.php">Motherboards</a>
+                                <a class="dropdown-item text-primary rounded-2" href="monitores.php">Monitores</a>
                             </li>
                             <li>
+                                <a class="dropdown-item text-primary rounded-2" href="motherboards.php">Motherboards</a>
+                            </li>                            
+                            <li>
                                 <a class="dropdown-item text-primary rounded-2" href="placasgraficas.php">Placas Gráficas</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item text-primary rounded-2" href="portateis.php">Portáteis</a>
                             </li>
                             <li>
                                 <a class="dropdown-item text-primary rounded-2" href="procesadores.php">Processadores</a>
@@ -51,18 +63,18 @@
                             <li>
                                 <a class="dropdown-item text-primary rounded-2" href="torres.php">Torres/Caixas</a>
                             </li>
-                            <li>
+                            <!-- <li>
                                 <hr class="dropdown-divider bg-dark">
                             </li>
                             <li><a class="dropdown-item text-primary rounded-2" href="todo.php">Todos os
-                                    Produtos</a></li>
+                                    Produtos</a></li> -->
                         </ul>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-primary btn btn-outline-secondary" href="saldos.php">SALDOS</a>
+                        <a class="nav-link text-primary btn btn-outline-secondary" href="desenho.php">Desenho WEB</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-primary btn btn-outline-secondary" aria-disabled="true" href="sobre.php">Sobre Nós</a>
+                        <a class="nav-link text-primary btn btn-outline-secondary" aria-disabled="true" href="../info/sobre.php">Sobre Nós</a>
                     </li>
                     <li class="nav-item" id="nav_login"><a class="nav-link text-primary btn btn-outline-secondary" aria-disabled="true" href="../conta/login.php"><i class="bi bi-person-fill-add"> Iniciar Sessão</i></a>
                     </li>

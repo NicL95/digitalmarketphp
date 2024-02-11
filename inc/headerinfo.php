@@ -4,20 +4,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Digital Market | Inicio</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="util/css/bootstrap.min.css">
-    <link rel="stylesheet" href="styleindex.css">
-    <link rel="shortcut icon" href="util/images/logo.ico">
+    <link rel="stylesheet" href="../util/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../util/css/style.css">    
+    <link rel="shortcut icon" href="../util/images/logo.ico">
     <meta name="google-adsense-account" content="ca-pub-1454307309376664">
 </head>
 
 
 <body>
-    <nav class="navbar navbar-expand-lg bg-light fixed-top" id="nav" data-bs-theme="dark">
+    <nav class="navbar navbar-expand-lg sticky-top bg-light" id="nav" data-bs-theme="dark">
         <div class="container">
             <div class="logo">
-                <a href="#index"><img class="rounded-5 img-fluid" width="80px" src="util/images/Tecnología.gif" alt="logo"></a></img>
+                <a href="../index.php"><img class="rounded-5 img-fluid" width="80px" src="../util/images/Tecnología.gif" alt="logo"></a></img>
             </div>
             <button class="navbar-toggler bg-secondary" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -28,63 +27,63 @@
                         <a class="nav-link dropdown-toggle text-primary btn btn-outline-secondary" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Produtos</a>
                         <ul class="dropdown-menu bg-light rounded-2">
                             <li>
-                                <a class="dropdown-item text-primary rounded-2" href="produtos/acessorios.php">Acessorios</a>
+                                <a class="dropdown-item text-primary rounded-2" href="../produtos/acessorios.php">Acessorios</a>
                             </li>
                             <li>
-                                <a class="dropdown-item text-primary rounded-2" href="produtos/computadores.php">Computadores Fixos</a>
+                                <a class="dropdown-item text-primary rounded-2" href="../produtos/computadores.php">Computadores Fixos</a>
                             </li>
                             <li>
-                                <a class="dropdown-item text-primary rounded-2" href="produtos/conexao.php">Conexão/Rede</a>
+                                <a class="dropdown-item text-primary rounded-2" href="../produtos/conexao.php">Conexão/Rede</a>
                             </li>
                             <li>
-                                <a class="dropdown-item text-primary rounded-2" href="produtos/discos.php">Discos</a>
+                                <a class="dropdown-item text-primary rounded-2" href="../produtos/discos.php">Discos</a>
                             </li>
                             <li>
-                                <a class="dropdown-item text-primary rounded-2" href="produtos/memorias.php">Memórias</a>
+                                <a class="dropdown-item text-primary rounded-2" href="../produtos/memorias.php">Memórias</a>
                             </li>
                             <li>
-                                <a class="dropdown-item text-primary rounded-2" href="produtos/monitores.php">Monitores</a>
+                                <a class="dropdown-item text-primary rounded-2" href="../produtos/monitores.php">Monitores</a>
                             </li>
                             <li>
-                                <a class="dropdown-item text-primary rounded-2" href="produtos/motherboards.php">Motherboards</a>
+                                <a class="dropdown-item text-primary rounded-2" href="../produtos/motherboards.php">Motherboards</a>
+                            </li>                            
+                            <li>
+                                <a class="dropdown-item text-primary rounded-2" href="../produtos/placasgraficas.php">Placas Gráficas</a>
                             </li>
                             <li>
-                                <a class="dropdown-item text-primary rounded-2" href="produtos/placasgraficas.php">Placas Gráficas</a>
+                                <a class="dropdown-item text-primary rounded-2" href="../produtos/portateis.php">Portáteis</a>
                             </li>
                             <li>
-                                <a class="dropdown-item text-primary rounded-2" href="produtos/portateis.php">Portáteis</a>
+                                <a class="dropdown-item text-primary rounded-2" href="../produtos/procesadores.php">Processadores</a>
                             </li>
                             <li>
-                                <a class="dropdown-item text-primary rounded-2" href="produtos/procesadores.php">Processadores</a>
-                            </li>
-                            <li>
-                                <a class="dropdown-item text-primary rounded-2" href="produtos/ratoseteclados.php">Ratos
+                                <a class="dropdown-item text-primary rounded-2" href="../produtos/ratoseteclados.php">Ratos
                                     e Teclados</a>
                             </li>
                             <li>
-                                <a class="dropdown-item text-primary rounded-2" href="produtos/torres.php">Torres/Caixas</a>
+                                <a class="dropdown-item text-primary rounded-2" href="../produtos/torres.php">Torres/Caixas</a>
                             </li>
                             <!-- <li>
                                 <hr class="dropdown-divider bg-dark">
                             </li>
-                            <li><a class="dropdown-item text-primary rounded-2" href="produtos/todo.php">Todos os
+                            <li><a class="dropdown-item text-primary rounded-2" href="todo.php">Todos os
                                     Produtos</a></li> -->
                         </ul>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-primary btn btn-outline-secondary" href="produtos/desenho.php">Desenho WEB</a>
+                        <a class="nav-link text-primary btn btn-outline-secondary" href="../produtos/desenho.php">Desenho WEB</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-primary btn btn-outline-secondary" aria-disabled="true" href="info/sobre.php">Sobre Nós</a>
+                        <a class="nav-link text-primary btn btn-outline-secondary" aria-disabled="true" href="sobre.php">Sobre Nós</a>
                     </li>
-                    <li class="nav-item" id="nav_login"><a class="nav-link text-primary btn btn-outline-secondary" aria-disabled="true" href="conta/login.php"><i class="bi bi-person-fill-add"> Iniciar Sessão</i></a>
+                    <li class="nav-item" id="nav_login"><a class="nav-link text-primary btn btn-outline-secondary" aria-disabled="true" href="../conta/login.php"><i class="bi bi-person-fill-add"> Iniciar Sessão</i></a>
                     </li>
                     <li class="nav-item dropdown" id="carro">
-                        <a class="nav-link dropdown-toggle text-primary btn btn-outline-secondary" type="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="bi bi-cart-fill"></i>
+                        <a class="nav-link dropdown-toggle text-primary btn btn-outline-secondary" type="button"
+                            data-bs-toggle="dropdown" aria-expanded="false"><i class="bi bi-cart-fill"></i>
                         </a>
                         <ul class="dropdown-menu bg-light rounded-2">
-                            <a href="" class="dropdown-item text-primary rounded-2"> Meu carro </a>
-                        </ul>
+                            <a href="" class="dropdown-item text-primary rounded-2" > Meu carro </a></ul>
                     </li>
                     <li class="nav-item dropdown" id="nav_user">
                         <a class="nav-link dropdown-toggle text-primary btn btn-outline-secondary" type="button" data-bs-toggle="dropdown" aria-expanded="false"><img id="image_nav" src="" width="35px" class="img-fluid rounded-circle"></i>
@@ -95,7 +94,7 @@
                                         perfil</i></a></li>
                             <li><a class="dropdown-item text-primary rounded-2" href="#"><i class="bi bi-bag-fill"> Meus Pedidos</i></a>
                             </li>
-                            <li><a class="dropdown-item text-primary rounded-2" href="controllers/logout.php"><i class="bi bi-person-fill-x"> Fechar
+                            <li><a class="dropdown-item text-primary rounded-2" href="../controllers/logout.php"><i class="bi bi-person-fill-x"> Fechar
                                         Sessão</i></a></li>
                         </ul>
                     </li>
@@ -107,3 +106,4 @@
             </div>
         </div>
     </nav>
+    <div class="aire"></div>
